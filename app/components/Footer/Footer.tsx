@@ -50,7 +50,7 @@ const Footer = (props: Props) => {
 				{...whileInviewFadeSlide}>
 				<div className="h-[1px] bg-white/40 w-full"></div>
 				<div className="flex flex-col sm:flex-row gap-4">
-					<p className="text-white/40 text-xs">© Copyright Finsweet 2022</p>
+					<p className="text-white/40 text-xs">© Copyright Abhinav Prakash 2024</p>
 					<div className="flex  sm:flex-row gap-4">
 						<BiLogoFacebookCircle className="text-xl text-white/40" />
 						<AiFillTwitterCircle className="text-xl text-white/40" />
