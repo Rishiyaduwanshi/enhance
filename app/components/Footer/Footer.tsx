@@ -15,6 +15,7 @@ import Link from "next/link";
 type Props = {};
 
 const Footer = (props: Props) => {
+	const currentYear = new Date().getFullYear();
 	return (
 		<motion.footer
 			className="bg-primary p-20 px-16 md:px-32 lg:px-40 md:py-32 z-10"
@@ -50,7 +51,7 @@ const Footer = (props: Props) => {
 				{...whileInviewFadeSlide}>
 				<div className="h-[1px] bg-white/40 w-full"></div>
 				<div className="flex flex-col sm:flex-row gap-4">
-					<p className="text-white/40 text-xs">© Copyright Abhinav Prakash 2024</p>
+					<p className="text-white/40 text-xs">© Copyright Abhinav {currentYear}</p>
 					<div className="flex  sm:flex-row gap-4">
 						<BiLogoFacebookCircle className="text-xl text-white/40" />
 						<AiFillTwitterCircle className="text-xl text-white/40" />
