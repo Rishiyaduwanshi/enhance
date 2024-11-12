@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.text-gradient-primary {
+	background: linear-gradient(54deg, #373fff 15.02%, #3acaf8 82.83%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+
+.bg-gradient-blue {
+	background: linear-gradient(176deg, #d7e7f9 13.12%, #d5f4ec 96.48%);
+}
+
+.bg-gradient-blur {
+	border-radius: 1688.741px;
+	background: radial-gradient(
+		2762.36% 537.65% at -49.5% -250%,
+		#d798e1 17.55%,
+		#9bffa5 27.56%,
+		#aed3ff 49.89%,
+		#c9d4ef 56.53%,
+		#cacffa 65.69%
+	);
+	filter: blur(350px);
+}
+.custom-grid-cols {
+	grid-template-columns: 0.5fr 1fr;
+}
